@@ -1,5 +1,4 @@
-from spark.sql.functions import StructType, StructField, StringType, IntegerType, DoubleType, DateType
-
+from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType, DateType
 
 def bronze_schema_expectations():
     return {
